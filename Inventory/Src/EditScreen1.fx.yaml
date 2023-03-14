@@ -23,7 +23,10 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Check
-        OnSelect: =If(IsDateConditionVerified, SubmitForm(EditForm1))
+        OnSelect: |-
+            =If(IsDateConditionVerified, 
+                SubmitForm(EditForm1), 
+                Set(varShowPopup, true))
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
@@ -595,4 +598,63 @@
                 Wrap: =false
                 Y: =DataCardKey7.Y
                 ZIndex: =7
+
+    GroupPopup As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =11
+
+        RectanglePopup1 As rectangle:
+            Fill: =RGBA(56, 96, 178, 0.5)
+            Height: =1136
+            Visible: =varShowPopup
+            Width: =640
+            ZIndex: =6
+
+        RectanglePopup2White As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =371
+            Visible: =varShowPopup
+            Width: =640
+            Y: =135
+            ZIndex: =7
+
+        ButtonPopupOk As button:
+            Height: =76
+            OnSelect: =Set(varShowPopup, false)
+            Size: =24
+            Text: |-
+                ="Ok
+                "
+            Visible: =varShowPopup
+            Width: =311
+            X: =164
+            Y: =373
+            ZIndex: =8
+
+        LabelPopupMsg As label:
+            Align: =Align.Center
+            Height: =76
+            Size: =21
+            Text: ="Check the field inserted!"
+            Visible: =varShowPopup
+            Width: =622
+            X: =18
+            Y: =259
+            ZIndex: =9
+
+        LabelPopupTitle As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(250, 155, 112, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =78
+            Size: =21
+            Text: ="Message POPUP"
+            Visible: =varShowPopup
+            Width: =640
+            Y: =135
+            ZIndex: =10
 
