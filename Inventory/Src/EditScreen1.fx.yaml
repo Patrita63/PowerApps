@@ -380,8 +380,10 @@
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
+                Format: ="[$-it-IT]dd/mm/yyyy"
                 Height: =46
                 IsEditable: =true
+                Language: ="it-IT"
                 OnChange: |-
                     =If(
                         DateDiff(DateValueOrderDate.SelectedDate, DateValueDeliveryDate.SelectedDate) > 0,
@@ -505,8 +507,10 @@
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
                 EndYear: =Year(Today())+100
+                Format: ="[$-it-IT]dd/mm/yyyy"
                 Height: =48
                 IsEditable: =true
+                Language: ="it-IT"
                 OnChange: |
                     =If(
                         DateDiff(DateValueOrderDate.SelectedDate, DateValueDeliveryDate.SelectedDate) > 0,

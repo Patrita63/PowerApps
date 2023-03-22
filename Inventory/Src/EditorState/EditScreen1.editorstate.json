@@ -3224,7 +3224,14 @@
           "NameMapSourceSchema": "?"
         },
         "DateTimeZone",
-        "Format",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "DateTimeFormat.ShortDate",
+          "InvariantPropertyName": "Format",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "InputTextPlaceholder",
         {
           "AFDDataSourceName": "",
@@ -3277,6 +3284,14 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "false",
           "InvariantPropertyName": "OnChange",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Language",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -3332,6 +3347,11 @@
         {
           "Category": "Data",
           "PropertyName": "InputTextPlaceholder",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Language",
           "RuleProviderType": "Unknown"
         },
         {
@@ -3569,7 +3589,14 @@
           "NameMapSourceSchema": "?"
         },
         "DateTimeZone",
-        "Format",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "DateTimeFormat.ShortDate",
+          "InvariantPropertyName": "Format",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "InputTextPlaceholder",
         {
           "AFDDataSourceName": "",
@@ -3622,6 +3649,14 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "false",
           "InvariantPropertyName": "OnChange",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Language",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -3677,6 +3712,11 @@
         {
           "Category": "Data",
           "PropertyName": "InputTextPlaceholder",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Language",
           "RuleProviderType": "Unknown"
         },
         {
