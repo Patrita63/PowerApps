@@ -252,7 +252,8 @@
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
-                Text: =Parent.Default
+                Text: |-
+                    =Text(Parent.Default, "dd/mm/yyyy hh:mm")
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey2.Y + DataCardKey2.Height + 5
@@ -290,7 +291,8 @@
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
-                Text: =Parent.Default
+                Text: |-
+                    =Text(Parent.Default, "dd/mm/yyyy hh:mm")
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey1.Y + DataCardKey1.Height + 5

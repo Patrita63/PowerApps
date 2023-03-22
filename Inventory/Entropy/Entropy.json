@@ -95,11 +95,11 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/22/2023 14:58:03",
+  "HeaderLastSavedDateTimeUTC": "03/22/2023 15:47:11",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "19a20262-860b-4544-9047-6acfaa86498c": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/439f76ee30604908aab1bdfe82f9e94a\"",
-    "5f741ce5-dcf3-42ee-b80c-791437cefc4f": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/97ffa89e64a7499d80e14695bd9e4975\""
+    "49beecc3-af51-41b6-8b90-15ae540f40a1": "\"/providers/microsoft.powerapps/apis/shared_onedriveforbusiness/connections/97ffa89e64a7499d80e14695bd9e4975\"",
+    "c1d5be81-503a-4d14-a489-4836649c58b1": "\"/providers/microsoft.powerapps/apis/shared_excel/connections/439f76ee30604908aab1bdfe82f9e94a\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
