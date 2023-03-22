@@ -24,7 +24,10 @@
         Height: =88
         Icon: =Icon.Check
         OnSelect: |-
-            =If(IsDateConditionVerified, 
+            =If(
+                DateDiff(DateValueOrderDate.SelectedDate, DateValueDeliveryDate.SelectedDate) > 0,
+                Set(IsDateConditionVerified,true),Set(IsDateConditionVerified,false));
+            If(IsDateConditionVerified, 
                 SubmitForm(EditForm1), 
                 Set(varShowPopup, true))
         PaddingBottom: =22
